@@ -14,6 +14,6 @@ from . Centcur import Test_OT_Operator
 from . test_panel import Test_PT_Panel
 
 
-classes = (Test_OT_Operator, Test_PT_Panel, HOK_OT_Operator)
+classes = (Test_OT_Operator, Test_PT_Panel,)
 
 register, unregister = bpy.utils.register_classes_factory(classes)
