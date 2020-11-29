@@ -2,7 +2,7 @@ bl_info = {
     "name" : "ATblend",
     "author" : "Adwait.R.K",
     "description" : "Adwait 2D 's Blender addon for 2D animation",
-    "blender" : (2,80,0),
+    "blender" : (2,91,0),
     "location" : "View3D",
     "warning" : "",
     "category" : "Generic"
