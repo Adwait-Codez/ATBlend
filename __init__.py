@@ -11,7 +11,7 @@ bl_info = {
 import bpy
 
 from . Centcur import Test_OT_Operator
-from . test_panel import Test_PT_Panel
+from . Panels import Test_PT_Panel
 
 
 classes = (Test_OT_Operator, Test_PT_Panel,)
