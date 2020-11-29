@@ -11,7 +11,7 @@ class Test_PT_Panel(bpy.types.Panel):
         layout=self.layout
         row=layout.row()
         row.operator('view3d.cursor_center', text="Center 3D Cursor")
-        ob = context.object
+        ob = bpy.context.object
         col = flow.column()
         col.prop(ob, "parent")
         sub = col.column()
