@@ -10,7 +10,7 @@ bl_info = {
 
 import bpy
 
-from . Centcur import Test_OT_Operator
+from . Operators import Test_OT_Operator
 from . Panels import Test_PT_Panel
 
 
