@@ -2,7 +2,7 @@ import bpy
 
 class Test_PT_Panel(bpy.types.Panel):
     bl_idname = "Test_PT_Panel"
-    bl_label = "AdAddon"
+    bl_label = "AdwAddon"
     bl_category = "Test Addon"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
