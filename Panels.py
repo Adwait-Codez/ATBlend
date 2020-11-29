@@ -10,10 +10,4 @@ class Test_PT_Panel(bpy.types.Panel):
     def draw(self, context):
         layout=self.layout
         row=layout.row()
-        row.operator('view3d.cursor_center', text="Center 3D Cursor")
-        ob = bpy.context.object
-        col = bpy.flow.column()
-        col.prop(ob, "parent")
-        sub = col.column()
-        sub.prop(ob, "parent_type")
-        parent = ob.parent
+        row.operator('view3d.cursor_center', text="Center 3D Cursor"
