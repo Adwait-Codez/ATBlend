@@ -16,8 +16,8 @@ class Test_PT_Panel(bpy.types.Panel):
 class Git_settings(bpy.types.Panel):
     bl_idname = "GitInt"
     bl_label = "yoopog"
-    bl_region_type = "UI"
-    bl_space_type = "PREFERENCES"
+    bl_region_type = "NAVIGATION_BAR"
+    bl_space_type = "PROPERTIES"
     def draw(self, context):
         layout=self.layout
         row=layout.row()
