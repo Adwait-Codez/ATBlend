@@ -10,4 +10,15 @@ class Test_PT_Panel(bpy.types.Panel):
     def draw(self, context):
         layout=self.layout
         row=layout.row()
-        row.operator('view3d.cursor_center', text="Center 3D Cursor"
+        row.operator('view3d.cursor_center', text="Center 3D Cursor")
+                     
+
+class Git_settings(bpy.types.Panel):
+    bl_idname = "GitInt"
+    bl_label = "yoopog"
+    bl_region_type = "UI"
+    bl_space_type = "PREFERENCES"
+    def draw(self, context):
+        layout=self.layout
+        row=layout.row()
+        row.operator('view3d.cursor_center', text="Center 3D Cursor")
