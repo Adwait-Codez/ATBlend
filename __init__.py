@@ -12,7 +12,6 @@ import bpy
 
 from . Operators import Test_OT_Operator
 from . Panels import Test_PT_Panel
-from . Panels import Git_settings
 
 
 classes = (Test_OT_Operator, Test_PT_Panel,Git_settings)
