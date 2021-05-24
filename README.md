@@ -1,2 +1,2 @@
 # ATBlend
-Adwait Creationz; Blender addon
+A Test Addon made by Adwait Creationz
